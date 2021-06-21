@@ -1,0 +1,38 @@
+{
+  "name": "gateway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "build": "",
+    "start:prod": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjoerdhalmans/Productio-Gateway.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sjoerdhalmans/Productio-Gateway/issues"
+  },
+  "homepage": "https://github.com/sjoerdhalmans/Productio-Gateway#readme",
+  "dependencies": {
+    "@nestjs/testing": "^7.6.15",
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "express-jwt-authz": "^2.4.1",
+    "ioredis": "^4.24.5",
+    "jsonwebtoken": "^8.5.1",
+    "jwks-rsa": "^2.0.2",
+    "redis": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.22"
+  }
+}
